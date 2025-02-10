@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[CÉGNÉV]</title>
+    <link rel="shortcut icon" href="./imgs/logo/icons8-security-guard-16.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="/styles/variables.css">
+    <link rel="stylesheet" href="/styles/common.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+
+    <script src="scripts/common.js" defer></script>
+    <script src="scripts/quoteForm.js" defer></script>
+</head>
+
+<body>
+    <a href="#introduction" class="skip-link" tabindex="0">Ugrás a tartalomra.</a>
+    <a href="#" id="to-the-top"><img src="imgs/icons8-up-squared-100.png" alt="Up arrow image."></a>
+    <header>
+        <div id="top-bar">
+            <img src="./imgs/logo/icons8-security-guard-100.png" alt="Oldal logó">
+            <nav>
+                <ul id="navigation-list">
+                    <li><a class="hover-effect" href="#introduction">Bemutatkozás</a></li>
+                    <li>/</li>
+                    <li><a class="hover-effect" href="#contact">Kapcsolat</a></li>
+                    <li>/</li>
+                    <li><a class="hover-effect" href="#quote">Árajánlat</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="hero-container">
+            <div id="hero-text">
+                <h1 id="main-title">[CÉGNÉV]</h1>
+                <h2 id="sub-title">Professzionális biztonsági szolgáltatások - a nap 24 órájában, a hét minden napján.</h2>
+                <p>
+                    Üdvözöljük [CÉGNÉV] oldalán! Cégünk megbízható és professzionális biztonsági szolgáltatásokat nyújt, legyen szó személyvédelemről, objektumőrzésről vagy rendezvénybiztosításról. Tapasztalt csapatunk elkötelezett amellett, hogy ügyfeleink számára maximális biztonságot és nyugalmat biztosítson.
+                </p>
+                <p>
+                    Bízza ránk értékei védelmét - mi mindig éberen őrizzük biztonságát
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <article id="introduction">
+            <h2>Rólunk</h2>
+            <p>
+                A biztonság nem csupán egy szolgáltatás, hanem egy életérzés. A [CÉGNÉV] megbízható és professzionális védelmet nyújt ügyfeleinek, legyen szó személyvédelemről, objektumőrzésről vagy rendezvénybiztosításról. Célunk, hogy Ön és értékei maximális biztonságban legyenek, tapasztalt csapatunk pedig mindig készen áll a hatékony és gyors intézkedésre.
+            </p>
+        </article>
+        <hr>
+        <article id="services">
+            <h2>Szolgáltatásaink</h2>
+            <ul>
+                <li>🔹<strong>Objektumőrzés</strong> - Irodák, üzletek, ipari létesítmények és ingatlanok folyamatos védelme.</li>
+                <li>🔹<strong>Rendezvénybiztosítás</strong> - Koncertek, sportesemények és egyéb események zavartalan lebonyolításának biztosítása.</li>
+                <li>🔹<strong>Személyvédelem</strong> - Magas kockázatú személyek védelme diszkréten és hatékonyan.</li>
+                <li>🔹<strong>Járőrözés</strong> - Rendszeres és eseti járőrtevékenység a veszélyek minimalizálására.</li>
+                <li>🔹<strong>Biztonságtechnikai tanácsadás</strong> - Egyedi védelmi stratégiák kialakítása vállalkozások és magánszemélyek számára.</li>
+            </ul>
+        </article>
+        <hr>
+        <article id="why-choose-us">
+            <h2>Miért válasszon minket?</h2>
+            <ul>
+                <li>✅<strong>Megbízhatóság</strong> - Minden helyzetben számíthat ránk.</li>
+                <li>✅<strong>Szakértelem</strong> - Évtizedes tapasztalattal és folyamatos képzéssel biztosítjuk a legjobb védelmet.</li>
+                <li>✅<strong>Modern technológia</strong> - Korszerű biztonsági eszközökkel dolgozunk.</li>
+                <li>✅<strong>Ügyfélközpontúság</strong> - Szolgáltatásainkat az Ön igényeihez igazítjuk.</li>
+            </ul>
+            <p>
+                A [CÉGNÉV] célja, hogy Ön nyugodt lehessen, tudva, hogy biztonsága a legjobb kezekben van. Lépjen velünk kapcsolatba még ma, és tegyük együtt biztonságosabbá környezetét!
+            </p>
+        </article>
+        <hr>
+        <article id="contact">
+            <h2>Lépjen kapcsolatba velünk!</h2>
+            <ul id="contact-list">
+                <li>
+                    <img class="hover-effect" src="./imgs/icons/icons8-copy-64.png" alt="vágólapra" onclick="copyToClipBoard('+36 20 123 456')">
+                    <div>📞<strong>Telefon:</strong>&nbsp;+36 20 123 456</div>
+                </li>
+                <li>
+                    <img class="hover-effect" src="./imgs/icons/icons8-copy-64.png" alt="vágólapra" onclick="copyToClipBoard('minta@pelda.hu')">
+                    <div>📧<strong>E-mail:</strong>&nbsp;minta@pelda.hu</div>
+                </li>
+            </ul>
+        </article>
+    </main>
+
+    <footer>
+        <section id="quote">
+            <h2>Árajánlat kérés</h2>
+            <p class="warning-text">
+                Az űrlap használatához szükséges egy telepített és megfelelően beállított e-mail kliens (pl. Outlook, Thunderbird). Ha nem rendelkezik ilyen programmal, a Küldés gomb megnyomása után előfordulhat, hogy semmi sem történik. Ha problémába ütközik, másolja ki az üzenet tartalmát, és küldje el manuálisan a fenti email címre.
+            </p>
+            <form id="quote-form" action="mailto:london50@ethereal.email" method="get" enctype="text/plain">
+                <label for="name">Név</label>
+                <input type="text" name="name" placeholder="Név" maxlength="255" required>
+                <label for="name">E-mail</label>
+                <input type="email" name="email" placeholder="E-mail" maxlength="320" required>
+                <label for="name">Üzenet</label>
+                <textarea name="message" placeholder="Üzenet" rows="5" required></textarea>
+                <div id="quote-form-buttons">
+                    <button id="quote-form-reset-button" class="button-disabled hover-effect" type="reset">Törlés</button>
+                    <button id="quote-form-submit-button" class="button-disabled hover-effect" type="submit">Küldés</button>
+                </div>
+            </form>
+        </section>
+    </footer>
+</body>
+
+</html>

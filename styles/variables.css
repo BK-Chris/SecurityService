@@ -1,0 +1,27 @@
+:root {
+  /* Fonts */
+  --font-family: "Helvetica", Arial, sans-serif;
+  --font-family-header: "Arial Black", "Helvetica Neue", sans-serif;
+  --title-font-size: 3rem;
+  --subtitle-font-size: 2rem;
+  --primary-font-size: 1.2rem;
+
+  /* Colors */
+  --text-color-light: #ffffff;
+  --text-color-dark: #0C0D13;
+  --bg-color-light: #d7DBEF;
+  --bg-color-dark: #959ECB;
+  --active-color: #4344AD;
+  --success-color: #4CAF50;
+  --error-color: #FF4C4C;
+  --highlight-color: #faf612;
+  --bg-shadow-color: #06060828;
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    --title-font-size: 2rem;
+    --subtitle-font-size: 1.6rem;
+    --primary-font-size: 1rem;
+  }
+}

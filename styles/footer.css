@@ -1,0 +1,30 @@
+footer{
+    background: linear-gradient(0deg, var(--bg-color-dark) 0%, var(--bg-color-light) 100%);
+}
+
+#quote{
+    margin: auto auto;
+    width: 80%;
+    max-width: 1000px;
+    padding: 5rem 2rem 10rem 2rem;
+}
+
+#quote > h2{
+    text-align: center;
+}
+
+#quote-form{
+    display: flex;
+    flex-direction: column;
+}
+
+#quote-form > *:not(label) {
+    margin: 0.5rem 0 1.5rem;
+    line-height: 2rem;
+}
+
+#quote-form-buttons{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}

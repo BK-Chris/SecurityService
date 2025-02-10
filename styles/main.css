@@ -1,0 +1,28 @@
+@import url(variables.css);
+
+main{
+  margin: auto auto;
+  width: 80%;
+}
+
+#contact-list > li {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  padding: 0.5rem;
+}
+
+#contact-list > li > img {
+  border-radius: 5px;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  margin-right: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: background-color 0.3s ease, filter 0.3s ease;
+}
+
+@media screen and (max-width: 767px) {
+  main { width: 90%; }
+}

@@ -1,0 +1,115 @@
+@import url(variables.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: var(--primary-font-size);
+  font-family: var(--font-family);
+}
+html { scroll-behavior: smooth; }
+h1{
+  font-size: var(--title-font-size);
+  font-family: var(--font-family-header);
+  color: var(--text-color-light);
+  margin: 2rem 0;
+}
+h2{
+  font-size: var(--subtitle-font-size);
+  font-family: var(--font-family-header);
+  margin: 1.5rem 0;
+}
+hr {
+  height: 0.2rem;
+  border: none;
+  border-radius: 0.2rem;
+  margin: 2rem;
+  background: radial-gradient(circle, var(--active-color), transparent);
+}
+p { margin: 1rem 0; }
+p,li{
+  text-align: left;
+  line-height: 2rem;
+}
+ul{
+  list-style: none;
+}
+
+button{
+  border-style: none;
+  width: 7.5rem;
+  height: 3rem;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 0.2rem;
+  background-color: var(--bg-color-light);
+  color: var(--text-color-dark);
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s ease, filter 0.3s ease;
+}
+
+/*button:focus {
+  outline: none;
+  border-color: var(--highlight-color);
+  border-width: 0.25rem;
+}*/
+
+.button-disabled{
+  border-color: grey;
+  color: var(--bg-color-light);
+  background-color: grey;
+  pointer-events: none;
+}
+
+body {
+  background-color: var(--bg-color-light);
+  color: var(--text-color-dark);
+}
+
+.hover-effect {
+  transition: background-color 0.2s ease, color 0.1s ease, filter 0.1s ease;
+}
+
+.hover-effect:hover {
+  color: var(--text-color-light);
+  background-color: var(--active-color);
+  filter: brightness(0.85);
+}
+
+.hover-effect:active {
+  background-color: var(--bg-color-light);
+}
+
+.skip-link {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.skip-link:focus {
+  display: inline-block;
+  top: 0;
+}
+
+#to-the-top{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+#to-the-top>img{
+  opacity: 0.5;
+}
+
+.warning-text{
+  color: var(--error-color);
+}
+
+/*
+.bg-red{ background-color: var(--error-color) !important; }
+.bg-green{ background-color: var(--success-color) !important; }
+*/
