@@ -48,12 +48,6 @@ button{
   transition: background-color 0.3s ease, filter 0.3s ease;
 }
 
-/*button:focus {
-  outline: none;
-  border-color: var(--highlight-color);
-  border-width: 0.25rem;
-}*/
-
 .button-disabled{
   border-color: grey;
   color: var(--bg-color-light);
@@ -108,8 +102,3 @@ body {
 .warning-text{
   color: var(--error-color);
 }
-
-/*
-.bg-red{ background-color: var(--error-color) !important; }
-.bg-green{ background-color: var(--success-color) !important; }
-*/
